@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos de la estructura general */
+.contenedor {
+    width: 100%;
+    padding: 5%;
+}
+
+.contenedor1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.mensaje1 {
+    width: 60%;
+}
+
+.mensaje1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: left;
+    color: #18181B;
+}
+
+span {
+    color: #FFD700;
+}
+
+.mensaje2 {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mensaje2 h2 {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mensaje2 strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: right;
+    color: black;
+}
+
+.hr1 {
+    width: 80%;
+    padding-right: 100px;
+}
+
+.contenedor2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.imagen {
+    width: 40%;
+    text-align: center;
+}
+
+.imagen img {
+    width: 80%;
+    height: auto;
+}
+
+.formulario {
+    width: 50%;
+    padding: 48px 66px 48px 98px;
+}
+
+/* Estilos del formulario */
+.appointment-form {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.caja {
+    display: flex;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #52525B40;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #4a90e2;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #357ABD;
+}
+
+/* Responsividad */
+@media screen and (max-width: 800px) {
+    .contenedor {
+        padding: 0;
+    }
+
+    .contenedor1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mensaje1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mensaje1 h1 {
+        font-size: 20px;
+    }
+
+    .mensaje2 {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .mensaje2 h2 {
+        font-size: 20px;
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+    .imagen img {
+        width: 100%;
+    }
+
+    .formulario {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .appointment-form {
+        max-width: 100%;
+    }
+}
