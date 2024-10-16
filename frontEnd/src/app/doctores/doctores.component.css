@@ -1,0 +1,191 @@
+.contenedor {
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.titulo {
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.titulo1 {
+    width: 50%;
+}
+
+.titulo1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 446px;
+    height: 128px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+
+
+}
+
+.titulo1 span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    background: #18181B;
+
+
+}
+
+.titulo2 {
+    width: 50%;
+
+
+}
+
+span {
+    color: #FFD700;
+
+}
+
+.titulo2 h1 {
+    width: auto;
+    text-align: right;
+    height: 74px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: right;
+
+
+
+}
+
+strong {
+    width: 20px;
+    background-color: #ffffff;
+}
+
+.doctores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: Hug (1, 296px)px;
+    height: Hug (416px)px;
+    gap: 52px;
+    opacity: 0px;
+    padding-top: 5%;
+
+}
+
+.doctorr1 {
+    width: Hug (248px)px;
+    height: Hug (416px)px;
+    gap: 32px;
+    opacity: 0px;
+
+}
+
+.doctores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctores img {
+    width: 216px;
+    height: 216px;
+    gap: 0px;
+    border-radius: 179px 179px 179px 179px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+
+
+    border: 3px solid #FFFFFF
+}
+
+.doctor1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctores h1 {
+    width: 248px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    color: #18181B;
+
+}
+
+.doctores h2 {
+    width: 248px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #777777;
+
+}
+
+@media screen and (max-width:800px){
+    .doctores{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .contenedor{
+        width: 100%;
+    }
+    .titulo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-bottom:1px solid rgba(0, 0, 0, 0) ;
+    }
+
+    .titulo1{
+        width: 100%;
+    }
+    .titulo2{
+        width: 100%;
+    }
+ 
+
+    .titulo1 h1{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .titulo2 h1{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .div-text{
+        padding-left: 100px;    }
+    
+}
