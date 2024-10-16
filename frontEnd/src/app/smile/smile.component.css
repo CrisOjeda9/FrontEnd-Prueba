@@ -97,4 +97,16 @@ h2 {
     .segunda-clase{
         padding-bottom: 20px;
     }
+
+    .boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

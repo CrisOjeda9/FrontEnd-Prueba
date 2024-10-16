@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
+import { ClienteComponent } from '../cliente/cliente.component'; // Asegúrate de que la ruta sea correcta
 
 @Component({
   selector: 'app-history',
   standalone: true,
-  imports: [],
+  imports: [ClienteComponent], // Agrega ClienteComponent aquí
   templateUrl: './history.component.html',
-  styleUrl: './history.component.css'
+  styleUrls: ['./history.component.css'] // Corrige "styleUrl" a "styleUrls"
 })
 export class HistoryComponent {
-
 }

@@ -1,0 +1,124 @@
+.contenedor {
+    padding-top: 5%;
+    display: flex;
+}
+
+.contenedor1 {
+    width: 100%;
+    height: Hug (662px)px;
+    top: 5268px;
+    padding: 96px 208px 96px 208px;
+    gap: 72px;
+    opacity: 0px;
+    background: #516EFF;
+    display: flex;
+
+
+}
+
+.imagen {
+    width: 50%;
+}
+
+
+
+.informacion {
+    width: 50%;
+    height: 80%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.informacion h1 {
+    width: 100%;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+    padding-top: 15%;
+    padding-bottom: 5%;
+
+
+}
+
+.informacion h2 {
+    width: 706px;
+    height: 136px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+.mensaje-principal {
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width:800px) {
+    .contenedor {
+        width: 100%;
+        padding: 0 0 0 0;
+
+    }
+
+    .contenedor1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 0;
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+    .imagen img {
+        width: 100%;
+        height: auto;
+    }
+
+    .informacion{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0 0 0;
+        text-align: center;
+        align-items: center;
+    }
+    .informacion h1{
+
+        padding: 0 0 0 0;
+    }
+
+    .mensaje-principa{
+        width: 100%;
+        padding: 0 0 0 0;
+
+    }
+    .mensaje-principa h1{
+        width: 100%;
+        padding: 0 0 0 0;
+        font-size: 30px;
+
+    }
+
+    .mensaje-secundario{
+        width: 80%;
+        padding: 0 0 0 0;
+
+    }
+
+    .mensaje-secundario h2{
+        width: 100%;
+    }
+}
