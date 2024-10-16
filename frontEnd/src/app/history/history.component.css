@@ -1,0 +1,172 @@
+.contenedor {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contenedor1 {
+    display: flex;
+    width: 100%;
+
+}
+
+.mensaje1 {
+    width: 50%;
+}
+
+.mensaje1 h1 {
+    width: 388px;
+    height: 74px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: right;
+    color: #18181B;
+
+
+}
+
+span {
+    color: #FFD700;
+
+}
+
+.mensaje2 {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+}
+
+.mensaje2 h2 {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 64px;
+
+}
+
+.mensaje2 strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: right;
+    color: black;
+
+
+}
+
+.hr1 {
+    width: 80%;
+    padding-right: 100px;
+}
+
+.contenedor2 {
+    padding-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    width: 50%;
+}
+
+.historia {
+    width: 50%;
+    width: Hug (634px)px;
+    height: 100%;
+    gap: 20px;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #52525B1A;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titulo {
+    width: 80%;
+    display: flex;
+    align-items: start;
+}
+
+
+
+
+.texto {
+    padding-top: 2%;
+    width: 80%;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto h1 {
+    width: 116px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    color: #18181B;
+
+
+}
+
+.texto h2 {
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #777777;
+
+
+}
+
+@media screen and(max-width:800px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .mensaje1{
+        width: 100%;
+        text-align: center;
+    }
+    .mensaje1 h1{
+        
+        font-size: 15px;
+    }
+
+    .mensaje2{
+        width: 100%;
+    }
+    .mensaje2 h2{
+        width: 100%;
+        font-size: 20px;
+    }
+}

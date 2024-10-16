@@ -1,0 +1,100 @@
+.contenedor {
+    width: Fixed (1, 512px)px;
+    height: Hug (492px)px;
+    padding: 88px 168px 88px 168px;
+    gap: 56px;
+    opacity: 0px;
+    background: #516EFF;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.boton {
+    width: Hug (384px)px;
+    height: Hug (82px)px;
+    padding: 24px 48px 24px 48px;
+    gap: 8px;
+    border-radius: 16px 16px 16px 16px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.h1 {
+    width: 596px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+.strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+.primer-mensaje h1 {
+    color: white;
+}
+
+h2 {
+    width: 904px;
+    height: 90px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+@media screen and (max-width:800px){
+
+    
+    .contenedor{
+        width: 100%;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    h1{
+
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    h2{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .primer-mensaje{
+        width: 100%;
+    }
+
+    .segunda-clase{
+        padding-bottom: 20px;
+    }
+}
